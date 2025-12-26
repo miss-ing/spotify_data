@@ -1,6 +1,7 @@
 Spotify Extended Streaming History/*
 !Spotify Extended Streaming History/.gitkeep
 
-.env
+*.env
+!client_credentials_example.env
 
 
