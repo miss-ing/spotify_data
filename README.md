@@ -2,6 +2,7 @@
 
 This project aims to create a pipeline turning a spotify user's downloaded Spotify Extended Streaming History into a database for analysis.
 
+
 ## intended workflow
 
 1. turn SESH jsons into pandas dataframe

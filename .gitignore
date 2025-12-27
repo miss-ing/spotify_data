@@ -1,7 +1,14 @@
-Spotify Extended Streaming History/*
-!Spotify Extended Streaming History/.gitkeep
 
+# no personalised data
+data/*
+
+# no client credentials
 *.env
-!client_credentials_example.env
 
+notebooks\.ipynb_checkpoints
+
+scripts\__pycache__
+
+#keep data folders 
+!gitkeep
 
