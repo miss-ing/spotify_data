@@ -5,10 +5,10 @@ data/*
 # no client credentials
 *.env
 
-notebooks\.ipynb_checkpoints
+notebooks/*
 
 scripts\__pycache__
 
 #keep data folders 
-!gitkeep
-
+!data/api_data/.gitkeep
+!data/Spotify Extended Streaming History/.gitkeep
