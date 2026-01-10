@@ -6,9 +6,12 @@ import pandas as pd
 
 
 def many_to_many(uri_info : pd.DataFrame, *,column :str, key: str | None = None) -> pd.DataFrame:
-    #create new df with two manys 
+    #create new many to many df 
+
+    #create df with the two relevant columns
     mmdf = uri_info[['id', column]].copy()
 
+    #if it is a 
     if key != None:
         mmdf[column]= mmdf[column].apply(
             lambda x: [y[key] for y in x])
@@ -26,3 +29,4 @@ def dictcolumn(column : str, key: str) -> str:
 
 
     return new_column
+

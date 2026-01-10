@@ -7,7 +7,7 @@ data/*
 
 notebooks/*
 
-scripts\__pycache__
+scripts/__pycache__/*
 
 #keep data folders 
 !data/api_data/.gitkeep
